@@ -1,0 +1,44 @@
+#specialist
+{
+	.mainSpecialist
+	{
+		margin: 60px 0px;
+    	padding-bottom: 50px;
+	}
+	.specImg 
+	{
+		display: flex;
+		flex-direction:row;
+		justify-content:space-evenly;
+	}
+	.spec-img-keep img
+	{
+		border-radius: 50%;
+	}
+	.spec-info
+	{
+		margin: 0px;
+		font-weight: 400;
+		font-style: normal;
+		font-family: 'Merriweather', serif;
+		font-size: 18px;
+		line-height: 2.1;
+		letter-spacing: 0px;
+	}
+	.spec-prof
+	{
+		font-weight: 400;
+	    font-style: normal;
+	    font-family: 'Montserrat', sans-serif;
+	    color: #a79a9a;
+	    font-size: 10px;
+	    line-height: 1.4;
+	    letter-spacing: 1px;
+	}
+	.spec-name
+	{
+		text-align: center;
+		padding: 25px 10px;
+
+	}
+}

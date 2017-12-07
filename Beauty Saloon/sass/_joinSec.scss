@@ -1,0 +1,81 @@
+#joinSec{
+	.mainDiv-2{
+		display: flex;
+	}
+	.join-img-1{
+		background-image: url(../img/mt-0808-home-content-img.jpg);
+		background-size: auto;
+	    background-position: left top;
+	    background-repeat: repeat;
+	    display: flex;
+	    height: 100%;
+	    justify-content: center;
+	    flex-direction: column;
+	    align-items: center;
+	    text-align: center;
+	    padding: 50px 15%;
+	    .join-text-1{
+	    	font-weight: 400;
+		    font-style: normal;
+		    font-family: $Menu-font;
+		    color: $white-color;
+		    font-size: 12px;
+		    line-height: 2;
+		    letter-spacing: 3px;
+			}
+	    }
+	    .join-text-2{
+			font-weight: 300;
+		    font-style: normal;
+		    font-family: $Main-font;
+		    color: $white-color;
+		    font-size: 36px;
+		    line-height: 1.3;
+		    letter-spacing: 0px
+	    }
+	    .join-text-3{
+			font-weight: 400;
+		    font-style: normal;
+		    font-family: $Main-font;
+		    color: $white-color;
+		    font-size: 16px;
+		    line-height: 1.5;
+		    letter-spacing: 0px;
+	    }
+	    .join-btn a{
+		display: inline-block;
+	    transition: .3s;
+	    border: 2px solid;
+	    letter-spacing: 1.2px;
+	    font-size: 14px;
+	    line-height: 25px;
+	    text-decoration: none;
+		padding: 12px 53px;
+		font-family: $Menu-font;
+	    font-weight: 400;
+	    font-style: normal;
+	    color: $white-color;
+	    background-color: #cc6b7c;
+	    border-color: transparent;
+	}
+	.join-btn a:hover{
+		background-color: #c1a091;
+	    border-color: #c1a091;
+	}
+	
+	.join-img-2{
+		background-image: url(../img/mt-0808-home-img04.jpg);
+		background-size: auto;
+	    background-position: right top;
+	    background-repeat: repeat;
+	    height: 100%;	
+	}
+}
+#mysec{
+	.contentlover{
+		height: 400px;
+		width: 100%;
+		background-color: red;
+	} 
+	
+}

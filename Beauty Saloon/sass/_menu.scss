@@ -1,0 +1,229 @@
+.header{
+	display: block;
+	height: 115px;
+	width: 100%;
+}
+@media screen and (max-width: 1058px) {
+	.header{
+		height: 72px !important;
+		display: block;
+		width: 100%;
+	}
+}
+#menu{
+	position:fixed;
+	top: 0;
+	left: 0;
+	z-index: 500;
+	padding: 30px 0px;
+	background: white;
+	width: 100%;
+	$Menu-Pink-Color:#edc9bd;
+	$Font: 'Montserrat', sans-serif;
+	.logo{
+		padding-left: 25px;
+	}
+	.headerDiv{
+		padding-top: 	35px;
+    	padding-bottom: 20px;
+	}
+	.logo-title{
+		display: inline-block;
+		.logo-brand{
+			float: left;
+			width: 80px;
+			img{
+				width: 100%;
+				max-width: 100px;
+				transition:.8s;
+			}
+		}
+		.logo-description{
+			float: right;
+			margin-left: 33px;
+		}
+		a{
+	    font-style: normal;
+	    font-family: $Font;
+	    color: $Pink-Color;
+	    font-size: 16px;
+	    line-height: 1.5;
+	    letter-spacing: 4px;
+	    text-decoration: none;
+		}
+		 p{
+	    color:$Gray-Color;
+		text-decoration: none;
+		font-style: normal;
+		font-size: 12px;
+		line-height: 2.1;
+		font-family: $Main-font;
+		margin: 0px;
+	    }
+	}
+.menu 
+{
+	.myActive{
+		color: $Menu-Pink-Color; 
+	}
+	text-align: right;
+	padding-top: 12px;
+	li{
+		font-family: $Menu-font;
+		font-size: 14px;
+		padding: 0px 20px ;
+		display: inline-block;
+		margin-right: 26px;
+		a{
+			font-weight: 400;
+			display: block;
+			color: $Gray-Color;
+			&:hover,
+			&:focus{
+			text-decoration: none;
+			}
+		}
+	}
+}
+.menu-trigger
+{
+	display: none;
+}
+@media screen and (min-width: 767px){
+	.menu-holder
+	{
+		position: static !important;
+	}
+	.logo-brand{
+			float: left;
+			width: 40px;
+			img{
+				width: 100%;
+				max-width: 100px;
+				transition:.8s;
+			}
+		}
+	.menu 
+	{
+		display: block !important;
+		.myActive{
+			color: $Menu-Pink-Color; 
+		}
+		text-align: right;
+		padding-top: 12px;
+	li{
+		font-family: $Menu-font;
+		font-size: 14px;
+		padding: 0px 10px ;
+		display: inline-block;
+		margin-right: 0px;
+		a{
+			font-weight: 400;
+			display: block;
+			color: $Gray-Color;
+			&:hover,
+			&:focus{
+			text-decoration: none;
+			}
+		}
+	}
+	}
+}
+//do 767 ekranov
+@media screen and (max-width: 767px) {
+
+	padding: 0px;
+	.logo{
+		padding: 10px 0px;
+		width: 88%;
+	}
+	.logo-description{
+		float: none !important;
+	}
+	.menu-holder
+	{
+		text-align: center;
+	}
+	.logo{
+		text-align: center;
+	}
+	.logo-title{
+		width: 100%;
+		a{
+	    letter-spacing: 0px !important;
+		}
+	}
+	.menu
+		{
+			display: none;
+			position: absolute;
+		    top: 100%;
+		    width: 100%;
+		    left: 0;
+		    text-align: center;
+		    padding-left: 0;
+		    background: white;
+		    margin: 0;
+			li
+			{
+			    display: block;
+			    margin-left: 0;
+			    a{
+			    	float: none !important;
+			    	padding: 12px;
+			    }
+			}
+		}
+	.menu-trigger
+	{
+		padding-top: 10px;
+		font-size: 27px;
+		color: $Pink-Color;
+   		background: white;
+    	border: none;
+		display: inline-block;
+	}
+}
+//isprvit!!!!!!!!!!!!!!!!!!!!!
+
+
+@media screen and (min-width: 768px) and  (max-width: 1058px) {
+	
+	padding: 10px 0px;
+	.logo{
+		padding-left: 0px !important;
+	}
+	.logo-title{
+		display: inline-block;
+		.logo-brand{
+			float: left;
+			img{
+				width: 70.83px;
+			}
+		}
+		.logo-description{
+			float: right;
+			margin-left: 8px !important;
+		}
+
+		a{
+	    font-style: normal;
+	    color: $Pink-Color;
+	    font-size: 14px !important;
+	    line-height: 1.5;
+	    letter-spacing: 0px !important;
+	    text-decoration: none;
+		}
+		 p{
+	    color:$Gray-Color;
+		text-decoration: none;
+		font-style: normal;
+		font-size: 10px !important;
+		line-height: 2.1;
+		font-family: $Main-font;
+		margin: 0px !important;
+	    }
+	}
+}
+
+}

@@ -1,0 +1,114 @@
+@media screen and (max-width:479px){
+	.myContainer{
+		padding: 0px !important;
+	}
+	.welcome{
+			 margin: 0px !important;
+		}
+		.effective{
+			font-size: 20px !important;
+		    line-height: 1.2 !important;
+		    letter-spacing: 0px !important;
+		}
+		.head{
+				font-size: 18px !important;
+			    line-height: 1.7 !important;
+			    letter-spacing: 0px !important;
+			    margin: 0px !important;
+			}
+		.head-desc{
+			font-size: 13px !important;
+		    line-height: 1.4 !important;
+		    letter-spacing: 0px !important;
+		}
+		.blogGallery{
+		display: flex;
+		flex-direction: column;
+		}
+	#myBlog{
+		.blogContent{
+			padding-bottom: 0px !important;
+		}
+		.textBlog p {
+			font-size: 12px !important;
+		    line-height: 1.4 !important;
+		    letter-spacing: 0px !important;
+		    padding: 0px 10px !important;
+		}
+		.textBlog{
+			width: 100% !important;
+			margin: 0 auto;
+			padding: 0 10px;
+		}
+		
+		.describe{
+			padding: 15px 0px !important;
+		}
+		
+	}
+	#joinSec{
+		.mainDiv-2{
+			flex-direction:column;
+		}
+		.join-img-1{
+			background-position: center center !importantr;
+    		background-size: cover !important;
+    		height: auto !important;
+    		display: inherit !important;
+    		padding: 30px 0px !important;
+		}
+		.join-text-1{
+			line-height: 1.4 !important;
+			font-size: 12px !important;
+    		letter-spacing: 3px !important;
+		}
+		.join-text-2{
+			font-size: 20px !important;
+		    line-height: 1.2 !important;
+		    letter-spacing: 0px !important;
+		}
+		.join-text-3{
+			font-size: 12px !important;
+		    line-height: 1.4 !important;
+		    letter-spacing: 0px !important;
+		}
+		.join-img-2{
+			background-position: center center !important;
+    		background-size: cover !important;
+		}
+	}
+	#priceTable{
+		.price{
+			font-size: 20px !important;
+		    line-height: 1.2 !important;
+		    letter-spacing: 0px !important;
+		}
+		.blogGallery{
+			display: flex;
+			flex-direction:column;
+		}
+	}
+	#feedback{
+		.mainFeed{
+			padding-left: 0px !important;
+			padding-right: 0px !important;
+			padding-top: 50px !important;
+			padding-bottom: 50px !important;
+		}
+		.feed-icon p{
+			    font-size: 30px !important;
+			    line-height: 1 !important;
+			    letter-spacing: 0px !important;
+		}
+		.feed-desc{
+			font-size: 13px !important;
+		    line-height: 1.4 !important;
+		    letter-spacing: 0px !important;
+		}
+		.client-name{
+			padding: 0px !important;
+		}
+		
+	}
+}
+	
